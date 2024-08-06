@@ -1,0 +1,43 @@
+{
+  "name": "gulp-css",
+  "version": "1.0.0",
+  "description": "Using Gulp.js for CSS tasks",
+  "main": "index.js",
+  "scripts": {
+    "build": "gulp css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/craigbuckler/gulp-css.git"
+  },
+  "keywords": [
+    "gulp",
+    "css"
+  ],
+  "author": "Craig Buckler",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/craigbuckler/gulp-css/issues"
+  },
+  "homepage": "https://github.com/craigbuckler/gulp-css#readme",
+  "dependencies": {
+    "autoprefixer": "10.4.3",
+    "cssnano": "5.1.4",
+    "del": "6.0.0",
+    "gulp": "4.0.2",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-newer": "1.4.0",
+    "gulp-noop": "1.0.1",
+    "gulp-postcss": "9.0.1",
+    "gulp-sass": "5.1.0",
+    "gulp-size": "4.0.1",
+    "gulp-sourcemaps": "3.0.0",
+    "postcss-assets": "6.0.0",
+    "sass": "^1.49.9",
+    "usedcss": "1.0.7"
+  },
+  "devDependencies": {
+    "browser-sync": "2.27.9"
+  }
+}

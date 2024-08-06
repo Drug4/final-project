@@ -1,0 +1,19 @@
+.header {
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 2px solid rgb(34, 34, 34);
+  padding-bottom: 25px;
+
+  &__icone {
+    width: 150px;
+    height: 60px;
+    margin-top: 25px;
+  }
+
+  &__img {
+    margin-top: 50px;
+    width: 30px;
+    height: 30px;
+    justify-content: flex-end;
+  }
+}

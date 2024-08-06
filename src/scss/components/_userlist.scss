@@ -1,0 +1,59 @@
+body {
+    font-family: "Roboto", "Arial", sans-serif;
+}
+
+.userlist {
+
+
+    &__follow {
+        display: flex;
+         flex-direction: column;
+         margin-bottom: 10px;
+        margin-left: 120px;
+        margin-top: 25px;
+    }
+
+    &__logo {
+        width: 120px;
+        height: 120px;
+        margin-left: 120px;
+        margin-top: 40px;
+    }
+
+    &__but {
+        background-color: rgb(71, 71, 255);
+        border: 1px solid rgb(179, 179, 179);
+        color: white;
+        width: 150px;
+        height: 45px;
+        border-radius: 8px;
+        transition: 0.5s;
+    }
+    &__but:hover {
+        background-color: blue;
+        transition: 0.5s;
+        border-radius: 9.5px;
+    }
+
+    &__but:focus {
+        background-color: grey;
+    }
+
+    &__info {
+        gap: 30px;
+        font-size: 20px;
+    }
+
+    &__name {
+        margin-top: 15px;
+        font-size: 26px;
+        font-weight: bolder;
+    }
+
+    // &__elements {
+    //     margin-left: 120px;
+    //     margin-top: 25px;
+    // }
+
+
+}
