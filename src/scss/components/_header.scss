@@ -1,13 +1,17 @@
 .header {
   display: flex;
   justify-content: space-around;
-  border-bottom: 2px solid rgb(34, 34, 34);
+  color: rgb(152, 150, 150);
+  border-bottom: 2px solid rgb(217, 213, 213);
   padding-bottom: 25px;
+  margin-left: 80px;
+  margin-right: 80px;
 
   &__icone {
     width: 150px;
     height: 60px;
     margin-top: 25px;
+    align-items: center;
   }
 
   &__img {
@@ -16,4 +20,6 @@
     height: 30px;
     justify-content: flex-end;
   }
+
+
 }

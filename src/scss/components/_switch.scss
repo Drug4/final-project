@@ -1,0 +1,26 @@
+.switch {
+
+    &__darkmode {
+        background-color: #6b6b6b;
+        border: 1px solid rgb(179, 179, 179);
+        color: azure;
+        width: 140px;
+        height: 30px;
+        border-radius: 6px;
+        transition: 0.5s;
+        font-size: 16px;
+        font-weight: lighter;
+        align-items: center;
+        margin-top: 45px;
+        transition: 1s;
+    }
+
+    &__darkmode:hover {
+        background-color: #373737;
+        border: 1px solid rgb(0, 0, 0);
+        color: azure;
+        transition: 1s;
+    }
+
+
+}
