@@ -1,6 +1,7 @@
 .footer {
   max-width: 800px;
   margin: 0 auto;
+  
 
   &__info {
     justify-content: center;
@@ -11,6 +12,7 @@
     color: grey;
     text-decoration: none;
     text-transform: uppercase;
+    transition: 1s;
   }
 
   &__icon {
@@ -37,7 +39,7 @@
 
   .footer__info--active,
   .footer__info:hover {
-    border-top: 1px solid black;
     color: black;
+    transition: 1s;
   }
 }

@@ -30,36 +30,3 @@ document.addEventListener('DOMContentLoaded', onload)
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// const footer__info = userList.querySelectorAll(".footer__info");
-
-// footer__info.forEach((userItem) => {
-//   deleteUser(userItem);
-// });
-
-// const err = document.querySelectorAll(".footer__info");
-
-// err.addEventListener('click', function () {
-//    swal ( "Error" ,  "you have no saved photos" ,  "error" )
-
-//  })
